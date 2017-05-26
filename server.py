@@ -5,7 +5,7 @@ from time import sleep
 # start socket listening for connections on 0.0.0.0:X_insert_port_X
 
 print("Connecting to Raspberry Pi...")
-sleep(5)
+sleep(3)
 
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server_socket.bind(('0.0.0.0',X_insert_port_X))
