@@ -5,7 +5,7 @@ from time import sleep
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client_socket.connect(('ip', X_insert_port_X))
 
-connetion = cient_socket.makefile('wb')
+connetion = client_socket.makefile('wb')
 
 try:
     with PiCamera() as camera:
